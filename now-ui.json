@@ -1,7 +1,15 @@
 {
 	"components": {
 	    "x-550136-card-list": {
-	        "innerComponents": []
+			"innerComponents": [
+				"now-template-card-assist"
+			],
+			"uiBuilder": {
+				"label": "card list",
+				"icon" : "eye-fill",
+				"description" : "Prints out some incident cards",
+				"associatedTypes": ["global.core"]
+			}
 	    }
 	},
 	"scopeName": "x_550136_test_ca_0"
